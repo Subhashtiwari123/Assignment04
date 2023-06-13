@@ -1,0 +1,72 @@
+<!-- Q1.A Create a photo gallery as shown in Bhe below image
+> Use CSS flex to alin the imaes side b side
+> Usin CSS flexbox properties, ensure that even if new imaes are added, the website flow is not broken. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallary</title>
+</head>
+<style>
+     *{
+   margin: 0px;
+   padding: 0px;
+}
+  main{
+      margin-left: 120px;
+        width: 50%;
+        margin-top: 40px;
+}
+.box{
+ width: 20%;
+ float: left;
+ padding: 7px;
+ padding-left: 10px;  
+ display: block;
+ overflow: hidden;
+ border-radius: 3px;
+
+ 
+
+
+}
+img{
+ width: 100%;
+    border-radius: 4px;
+    border-radius: 3px;
+    border: 2px solid black;
+    justify-content: space-between;
+
+
+}
+</style>
+
+<body>
+
+    <main>
+        <div class="box"><img src="img1.jpeg" alt="img1"></div>
+       <div class="box"><img src="img2.jpeg" alt="img2"></div>
+        <div class="box"><img src="img3.jpeg" alt="img3"></div>
+        <div class="box"><img src="img4.jpeg" alt="img4"></div>
+
+
+        <div class="box"><img src="img6.jpeg" alt="img6"></div>
+        <div class="box"><img src="img1.jpeg" alt="img1"></div>
+        <div class="box"><img src="img8.jpeg" alt="img8"></div>
+        <div class="box"><img src="img5.jpeg" alt="img5"></div>
+
+
+
+       <div class="box"><img src="img10.jpeg" alt="img10"></div>
+       <div class="box"> <img src="img11.jpeg" alt="img11"></div>
+       <div class="box"> <img src="img12.jpeg" alt="img12"></div>
+       <div class="box"> <img src="img9.jpeg" alt="img9"></div>
+
+    </main>
+</body>
+
+</html>

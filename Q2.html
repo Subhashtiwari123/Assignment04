@@ -1,0 +1,83 @@
+<!-- Q2.Create a simple webpage as shown in the image below
+> The webpae must contain course details
+> The cards must be alined side b side. If an new card ets added, the size of the cards m?st not be varied
+and the flow must be moved to the next row automaticall. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>####</title>
+</head>
+
+<style>
+    body {
+        background-color: rgb(217, 217, 238);
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 300px;
+        float: left;
+        padding: 7px;
+        padding-left: 10px;
+        margin: 50px;
+        display: block;
+        overflow: hidden;
+        border-radius: 3px;
+        align-items: center;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+
+    .container {
+        padding: 2px 16px;
+    }
+
+    img {
+        width: 300px;
+    }
+</style>
+
+<body>
+    <h1>Community Programs</h1>
+    <p class="content">Open to all pro-live classes on youtube for free</p>
+    <div class="card">
+        <img src="webdevlopment.jpg" alt="Avatar" style="width:200X" height="200PX">
+        <div class="container">
+            <a href="https://pwskills.com/category/Web-Development">https://pwskills.com/category/Web-Development</a>
+            <p><b>Free</b></p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="interviw.jpg" alt="Avatar" style="width:200X" height="200PX">
+        <div class="container">
+            <a
+                href="https://pwskills.com/course/Cracking-the-Coding-Interview-in-Java---Foundation">https://pwskills.com/course/Cracking-the-Coding-Interview</a>
+            <p><b>Free</b></p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="binary.jpg" alt="Avatar" style="width:200X" height="200PX">
+        <div class="container">
+            <a href="https://www.pw.live/question-answer/a-binary-system-of-two-stars-of-masses-ma-and-mb-rotate-under-their-26751">https://pwskills.com/category/binaer</a>
+            <p><b>Free</b></p>
+        </div>
+    </div>
+</body>
+
+</html>
